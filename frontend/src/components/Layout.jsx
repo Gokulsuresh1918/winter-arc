@@ -1,6 +1,7 @@
 import { Outlet, NavLink, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useAuth } from '../context/AuthContext';
+import Logo from './Logo';
 import { 
   Home, 
   Dumbbell, 
@@ -46,11 +47,7 @@ const Layout = () => {
       >
         {/* Logo */}
         <div className="mb-8">
-          <h1 className="text-2xl font-bold glow-text flex items-center gap-2">
-            <Flame className="text-primary-500" />
-            Difference
-          </h1>
-          <p className="text-sm text-dark-400 mt-1">Transform. Evolve. Conquer.</p>
+          <Logo size="md" showText={true} animated={false} />
         </div>
 
         {/* User Info */}

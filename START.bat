@@ -1,6 +1,6 @@
 @echo off
 echo ======================================
-echo    WINTER ARC - QUICK START
+echo    MOMENTUM - QUICK START
 echo ======================================
 echo.
 
@@ -26,7 +26,7 @@ timeout /t 3 /nobreak >nul
 
 echo.
 echo ======================================
-echo    WINTER ARC IS STARTING...
+echo    MOMENTUM IS STARTING...
 echo ======================================
 echo.
 echo Backend: http://localhost:5000
@@ -41,7 +41,7 @@ timeout /t 5 /nobreak >nul
 start http://localhost:3000
 
 echo.
-echo WINTER ARC is now running!
+echo MOMENTUM is now running!
 echo Keep this window open.
 pause
 

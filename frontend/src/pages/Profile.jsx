@@ -276,14 +276,14 @@ const Profile = () => {
         )}
       </motion.div>
 
-      {/* Winter Arc Progress */}
+      {/* Momentum Progress */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.3 }}
         className="glass-card p-8"
       >
-        <h2 className="text-2xl font-bold text-dark-700 mb-4">❄️ Winter Arc Journey</h2>
+        <h2 className="text-2xl font-bold text-dark-700 mb-4">⚡ Momentum Journey</h2>
         <div className="space-y-4">
           <div>
             <div className="flex justify-between mb-2">
@@ -299,7 +299,7 @@ const Profile = () => {
               />
             </div>
             <p className="text-sm text-dark-400 mt-2">
-              {90 - (user?.currentStreak || 0)} days until Winter Arc completion
+              {90 - (user?.currentStreak || 0)} days until transformation goal
             </p>
           </div>
         </div>

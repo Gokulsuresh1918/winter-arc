@@ -111,7 +111,7 @@ const Fitness = () => {
         <p className="text-dark-400 mt-1">Track your workouts and progress</p>
       </div>
 
-      {/* Winter Arc 6-Day Split */}
+      {/* Momentum 6-Day Split */}
       <WorkoutSplit onSelectSplit={handleSelectSplit} />
 
       {/* Weekly Workout Tracker */}

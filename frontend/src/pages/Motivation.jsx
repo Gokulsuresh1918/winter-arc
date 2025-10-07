@@ -273,7 +273,7 @@ const Motivation = () => {
         transition={{ delay: 0.3 }}
         className="glass-card p-8 bg-gradient-to-r from-purple-500/10 to-primary-500/10"
       >
-        <h2 className="text-2xl font-bold text-dark-700 mb-4 text-center">💪 Your Winter Arc Journey</h2>
+        <h2 className="text-2xl font-bold text-dark-700 mb-4 text-center">⚡ Your Momentum Journey</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
           <div className="text-center">
             <p className="text-4xl mb-2">🎯</p>
@@ -303,5 +303,6 @@ const Motivation = () => {
 };
 
 export default Motivation;
+
 
 

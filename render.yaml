@@ -1,0 +1,31 @@
+services:
+  # Backend API Service
+  - type: web
+    name: momentum-backend
+    env: node
+    region: oregon
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MONGODB_URI
+        sync: false  # Add this in Render dashboard
+      - key: JWT_SECRET
+        sync: false  # Add this in Render dashboard
+      - key: PORT
+        value: 5000
+
+  # Frontend Static Site
+  - type: web
+    name: momentum-frontend
+    env: static
+    region: oregon
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./dist
+    envVars:
+      - key: NODE_ENV
+        value: production
+

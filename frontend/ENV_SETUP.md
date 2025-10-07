@@ -37,8 +37,8 @@ VITE_API_URL=http://localhost:5000
 VITE_API_BASE_URL=/api
 
 # Application Configuration
-VITE_APP_NAME=Difference
-VITE_APP_DESCRIPTION=Transform. Evolve. Conquer.
+VITE_APP_NAME=Momentum
+VITE_APP_DESCRIPTION=Build. Progress. Achieve.
 ```
 
 ## 🔧 Configuration Options
@@ -69,8 +69,8 @@ VITE_API_BASE_URL=https://your-backend-domain.com/api
 |----------|-------------|---------|----------|
 | `VITE_API_URL` | Backend server URL for proxy | `http://localhost:5000` | Yes |
 | `VITE_API_BASE_URL` | Base URL for API calls | `/api` | Yes |
-| `VITE_APP_NAME` | Application name | `Difference` | No |
-| `VITE_APP_DESCRIPTION` | App tagline | `Transform. Evolve. Conquer.` | No |
+| `VITE_APP_NAME` | Application name | `Momentum` | No |
+| `VITE_APP_DESCRIPTION` | App tagline | `Build. Progress. Achieve.` | No |
 
 ## 🔒 Security Notes
 

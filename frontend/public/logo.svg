@@ -1,0 +1,66 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle with Gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="lightningGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Outer Circle -->
+  <circle cx="100" cy="100" r="95" fill="url(#bgGradient)" opacity="0.1"/>
+  <circle cx="100" cy="100" r="95" fill="none" stroke="url(#bgGradient)" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Inner Circle -->
+  <circle cx="100" cy="100" r="75" fill="url(#bgGradient)" opacity="0.15"/>
+  
+  <!-- Lightning Bolt - Main Symbol -->
+  <path 
+    d="M110 40 L75 95 L95 95 L85 140 L125 85 L105 85 L120 55 Z" 
+    fill="url(#lightningGradient)" 
+    filter="url(#glow)"
+  />
+  
+  <!-- Momentum Arcs - representing forward motion -->
+  <path 
+    d="M 140 60 Q 150 80, 145 100" 
+    stroke="#0ea5e9" 
+    stroke-width="3" 
+    fill="none" 
+    stroke-linecap="round"
+    opacity="0.6"
+  />
+  <path 
+    d="M 150 65 Q 160 85, 155 105" 
+    stroke="#0ea5e9" 
+    stroke-width="2.5" 
+    fill="none" 
+    stroke-linecap="round"
+    opacity="0.4"
+  />
+  <path 
+    d="M 160 70 Q 170 90, 165 110" 
+    stroke="#0ea5e9" 
+    stroke-width="2" 
+    fill="none" 
+    stroke-linecap="round"
+    opacity="0.2"
+  />
+  
+  <!-- Small accent circles for energy -->
+  <circle cx="130" cy="50" r="3" fill="#fbbf24" opacity="0.8"/>
+  <circle cx="145" cy="55" r="2" fill="#f59e0b" opacity="0.6"/>
+  <circle cx="155" cy="62" r="2.5" fill="#fbbf24" opacity="0.7"/>
+</svg>
+

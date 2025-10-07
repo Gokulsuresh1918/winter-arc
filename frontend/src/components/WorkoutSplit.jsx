@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { CheckCircle2, Circle } from 'lucide-react';
 
 const WorkoutSplit = ({ onSelectSplit }) => {
-  const differenceSplit = [
+  const momentumSplit = [
     { day: 'Mon (Day 1)', focus: 'Chest + Triceps', color: 'orange' },
     { day: 'Tue (Day 2)', focus: 'Back + Biceps', color: 'blue' },
     { day: 'Wed (Day 3)', focus: 'Shoulders + Legs', color: 'purple' },

@@ -126,7 +126,7 @@ const Dashboard = () => {
               </h1>
             </div>
             <p className="text-dark-400">
-              Day {streak + 1} of Difference. Keep pushing forward!
+              Day {streak + 1} of Momentum. Keep building your momentum!
             </p>
             {quote && (
               <div className="mt-4 p-4 rounded-lg bg-primary-500/10 border-l-4 border-primary-500">

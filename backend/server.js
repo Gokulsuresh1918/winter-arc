@@ -50,7 +50,7 @@ app.use('/api/schedule', scheduleRoutes);
 
 // Health check route
 app.get('/api/health', (req, res) => {
-  res.json({ status: 'Winter Arc Backend is running! 🔥' });
+  res.json({ status: 'Momentum Backend is running! ⚡' });
 });
 
 // Error handler middleware

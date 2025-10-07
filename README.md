@@ -1,8 +1,8 @@
-# ❄️ Difference - Personal Transformation Assistant
+# ⚡ Momentum - Personal Transformation Assistant
 
 A complete full-stack web application designed to help you track, reflect, and stay motivated across your daily routine, fitness, career growth, and mindset. Built with a beautiful dark theme, smooth animations, and an intuitive user experience.
 
-![Difference](https://img.shields.io/badge/Difference-Transform%20•%20Evolve%20•%20Conquer-0ea5e9?style=for-the-badge)
+![Momentum](https://img.shields.io/badge/Momentum-Build%20•%20Progress%20•%20Achieve-0ea5e9?style=for-the-badge)
 
 ## ✨ Features
 
@@ -50,7 +50,7 @@ A complete full-stack web application designed to help you track, reflect, and s
 - Editable personal information
 - Custom goals and focus quotes
 - Current and longest streak tracking
-- Winter Arc journey progress (90-day goal)
+- Momentum journey progress (90-day goal)
 
 ## 🛠️ Tech Stack
 
@@ -94,7 +94,7 @@ npm install
 3. Create a `.env` file in the backend directory:
 ```env
 PORT=5000
-MONGODB_URI=mongodb://localhost:27017/winter-arc
+MONGODB_URI=mongodb://localhost:27017/momentum
 JWT_SECRET=your_super_secret_jwt_key_change_this_in_production
 NODE_ENV=development
 ```
@@ -180,6 +180,7 @@ Visit `http://localhost:3000` in your browser!
 - 🎯 Set realistic completion percentages for study sessions
 - 📝 Be honest and detailed in your journal reflections
 - 🔥 Aim for a 7-day streak to earn your first badge!
+- ⚡ Keep your momentum going every day!
 
 ## 🎨 UI Design Philosophy
 
@@ -338,15 +339,15 @@ This is a personal project, but suggestions and improvements are welcome!
 
 ## 💪 Motivation
 
-> "Discipline over motivation. Consistency over intensity."
+> "Momentum isn't about being perfect. It's about being consistent."
 
-Difference isn't just an app—it's a mindset. A commitment to yourself. A promise that no matter how challenging the journey, you'll keep pushing forward to make a difference.
+Momentum isn't just an app—it's a mindset. A commitment to yourself. A promise that no matter how challenging the journey, you'll keep building forward momentum, one day at a time.
 
-**Your future self is watching. Make them proud.** 🔥
+**Your future self is counting on the momentum you build today.** ⚡
 
 ---
 
 Built with 💙 by a developer committed to personal growth and excellence.
 
-**Day 1 or One Day? You decide.**
+**Build your momentum. Transform your life.**
 

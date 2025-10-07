@@ -1,14 +1,14 @@
 {
-  "name": "winter-arc-backend",
+  "name": "momentum-backend",
   "version": "1.0.0",
-  "description": "Winter Arc - Personal Transformation Assistant Backend",
+  "description": "Momentum - Personal Transformation Assistant Backend",
   "main": "server.js",
   "type": "module",
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
-  "keywords": ["winter-arc", "personal-development", "tracker"],
+  "keywords": ["momentum", "personal-development", "tracker", "habits", "productivity"],
   "author": "",
   "license": "MIT",
   "dependencies": {

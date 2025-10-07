@@ -1,0 +1,35 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="iconGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a855f7;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="boltGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1" />
+    </linearGradient>
+    <filter id="iconGlow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="50" cy="50" r="48" fill="url(#iconGradient)"/>
+  
+  <!-- Lightning Bolt -->
+  <path 
+    d="M55 15 L35 47.5 L47.5 47.5 L42.5 70 L65 42.5 L52.5 42.5 L60 27.5 Z" 
+    fill="url(#boltGradient)" 
+    filter="url(#iconGlow)"
+  />
+  
+  <!-- Forward Motion Lines -->
+  <path d="M 70 30 Q 75 40, 72 50" stroke="#ffffff" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.5"/>
+  <path d="M 77 33 Q 82 43, 79 53" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.3"/>
+</svg>
+

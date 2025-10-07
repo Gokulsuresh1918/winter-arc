@@ -2,7 +2,8 @@ import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useAuth } from '../context/AuthContext';
-import { Flame, Mail, Lock } from 'lucide-react';
+import { Mail, Lock } from 'lucide-react';
+import Logo from '../components/Logo';
 
 const Login = () => {
   const [email, setEmail] = useState('');
@@ -42,12 +43,9 @@ const Login = () => {
         className="glass-card p-8 w-full max-w-md relative z-10"
       >
         {/* Logo */}
-        <div className="text-center mb-8">
-          <div className="flex items-center justify-center gap-2 mb-2">
-            <Flame className="text-primary-500 w-10 h-10" />
-            <h1 className="text-3xl font-bold glow-text">Winter Arc</h1>
-          </div>
-          <p className="text-dark-400">Welcome back, warrior! 🔥</p>
+        <div className="flex flex-col items-center mb-8">
+          <Logo size="lg" showText={true} />
+          <p className="text-dark-400 mt-4">Welcome back, warrior! ⚡</p>
         </div>
 
         {/* Error Message */}
@@ -104,7 +102,7 @@ const Login = () => {
 
         {/* Register Link */}
         <p className="text-center mt-6 text-dark-400">
-          New to Winter Arc?{' '}
+          New to Momentum?{' '}
           <Link to="/register" className="text-primary-500 font-semibold hover:underline">
             Create Account
           </Link>

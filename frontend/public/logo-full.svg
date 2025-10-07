@@ -1,0 +1,51 @@
+<svg width="400" height="120" viewBox="0 0 400 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fullLogoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a855f7;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="fullBoltGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1" />
+    </linearGradient>
+    <filter id="fullGlow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Icon Circle -->
+  <circle cx="60" cy="60" r="50" fill="url(#fullLogoGradient)" opacity="0.15"/>
+  <circle cx="60" cy="60" r="50" fill="none" stroke="url(#fullLogoGradient)" stroke-width="2"/>
+  
+  <!-- Lightning Bolt -->
+  <path 
+    d="M68 25 L43 57.5 L57.5 57.5 L50 85 L80 52.5 L65 52.5 L75 35 Z" 
+    fill="url(#fullBoltGradient)" 
+    filter="url(#fullGlow)"
+  />
+  
+  <!-- Forward Motion Lines -->
+  <path d="M 90 40 Q 98 50, 94 62" stroke="url(#fullLogoGradient)" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <path d="M 98 43 Q 106 53, 102 65" stroke="url(#fullLogoGradient)" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.4"/>
+  <path d="M 106 46 Q 114 56, 110 68" stroke="url(#fullLogoGradient)" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.2"/>
+  
+  <!-- MOMENTUM Text -->
+  <text x="140" y="70" font-family="'Inter', 'Arial', sans-serif" font-size="48" font-weight="800" fill="url(#textGradient)">
+    MOMENTUM
+  </text>
+  
+  <!-- Tagline -->
+  <text x="140" y="95" font-family="'Inter', 'Arial', sans-serif" font-size="14" font-weight="500" fill="#64748b" letter-spacing="2">
+    BUILD • PROGRESS • ACHIEVE
+  </text>
+</svg>
+
