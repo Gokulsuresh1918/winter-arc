@@ -1,8 +1,8 @@
 import axios from 'axios';
 
-// Use environment variable for API URL, fallback to /api for proxy
+// Use environment variable for API URL, fallback to production backend
 const API = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL || '/api',
+  baseURL: import.meta.env.VITE_API_BASE_URL || 'https://winter-arc-9t0t.onrender.com/api',
 });
 
 // Add token to requests
