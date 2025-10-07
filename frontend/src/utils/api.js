@@ -1,7 +1,8 @@
 import axios from 'axios';
 
+// Use environment variable for API URL, fallback to /api for proxy
 const API = axios.create({
-  baseURL: '/api',
+  baseURL: import.meta.env.VITE_API_BASE_URL || '/api',
 });
 
 // Add token to requests
